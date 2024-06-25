@@ -1,12 +1,32 @@
 /* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; /* Example font-family */
+  background-color: #222; /* Dark background color */
+  color: white; /* Text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure full viewport height */
+}
+
 .App {
   text-align: center;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 button {
-  margin: 20px;
+  margin-bottom: 20px; /* Move button to the top with margin-bottom */
   padding: 10px 20px;
   font-size: 16px;
+  background-color: #444; /* Darker button background */
+  color: white; /* Button text color */
+  border: none;
+  cursor: pointer;
 }
 
 .maze {
@@ -20,12 +40,18 @@ button {
 .cell {
   width: 20px;
   height: 20px;
+  border: 1px solid #333; /* Border for cells */
+  box-sizing: border-box; /* Ensure border-box model */
 }
 
 .cell.wall {
-  background-color: black;
+  background-color: #000; /* Black walls */
 }
 
 .cell.path {
-  background-color: white;
+  background-color: #fff; /* White paths */
+}
+
+footer {
+  margin-top: auto; /* Push footer to bottom */
 }
