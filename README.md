@@ -8,7 +8,10 @@ This is a is a React-based web application designed to generate and display rand
 
 1. Clone the repository.
 2. Install dependencies using `npm install`.
-3. Start the development server using `npm start`.
+3. Start the development server using `npm run dev`.
+4. Then copy and paste the webpage link (shown bellow) into a browser
+
+![How to view webpage](/src/assets/localhost.PNG)
 
 ## Usage
 
