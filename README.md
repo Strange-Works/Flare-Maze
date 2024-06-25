@@ -2,7 +2,7 @@
 
 This is a is a React-based web application designed to generate and display random mazes. Users can interact with the application by generating new mazes with a click of a button. Each maze is randomly generated and displayed on the screen, where paths and walls are visually represented.
 
-[Screenshot](https://github.com/Strange-Works/Flare-Maze/tree/main/src/assets/sreenshot.PNG)
+[Screenshot](https://github.com/Strange-Works/Flare-Maze/blob/main/src/assets/screenshot.PNG)
 
 ## How to Run
 
